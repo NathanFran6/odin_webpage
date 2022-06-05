@@ -6,7 +6,9 @@
 }
 
 .header,
-.title {
+.title,
+.motto,
+.footer {
     background-color: #EFDE31;
     color: black;
     display: flex;
@@ -39,6 +41,7 @@
 .title{
     padding-top:30px;
     padding-left: 200px;
+    padding-bottom: 30px;
 }
 
 .title_text {
@@ -70,9 +73,10 @@ button:hover {
 }
 
 .info {
-    background-color: #EFDE31;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    color:black;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -94,12 +98,14 @@ h3 {
     flex-wrap: wrap;
     width:150px;
     height:250px;
+    color
 }
 
 .info_p {
     text-align: center;
     padding-left:30px;
     margin-right:-15px;
+    color: #575547;
 }
 
 img {
@@ -107,4 +113,47 @@ img {
     border-radius: 8px;
     width:200px;
     height:150px;
+}
+
+.motto {
+    flex-direction: column;
+    align-items: center;
+    padding:40px;
+    gap:20px;
+}
+
+.phrase {
+    font-size:70px;
+}
+
+em {
+    font-weight: 800;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+.pop-up {
+    background-color: #EFDE31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:700px;
+    height:75px;
+    border-radius: 8px;
+    margin-top:30px;
+    padding-right:20px;
+}
+
+.volunteer {
+    margin-left:20px;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    padding:10px;
 }
